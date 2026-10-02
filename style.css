@@ -1,0 +1,76 @@
+body {
+  font-family: Arial, sans-serif;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 0 20px;
+  color: #222222;
+}
+
+h1 {
+  text-align: center;
+  color: #12233F;
+}
+
+#habit-form {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+#habit-input {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #D3D6CF;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+#habit-form button {
+  padding: 10px 18px;
+  background-color: #12233F;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+#habit-form button:hover {
+  background-color: #2F6F6D;
+}
+
+#habit-list {
+  list-style: none;
+  padding: 0;
+}
+
+#habit-list li {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px;
+  border: 1px solid #D3D6CF;
+  border-radius: 4px;
+  margin-bottom: 8px;
+}
+
+#habit-list li span {
+  flex: 1;
+}
+
+#habit-list button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+#habit-list button:first-of-type {
+  background-color: #E2A63B;
+  color: white;
+}
+
+#habit-list button:last-of-type {
+  background-color: #C0392B;
+  color: white;
+}
